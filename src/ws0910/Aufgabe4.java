@@ -6,7 +6,7 @@
 package ws0910;
 
 /**
- *
+ * 
  * @author Gösta Ostendorf <goesta.o@gmail.com>
  */
 public class Aufgabe4 {
@@ -15,6 +15,11 @@ public class Aufgabe4 {
 //            3 · g(n − 1) + 1 wenn g(n − 1) ungerade
 //    g(n) =
 //            g(n − 1)/2 sonst
+    /**
+     * 
+     * @param n Anzahl 
+     * @return Der Rückgabewert
+     */
     public int berechne(int n) {
 
         if (n == 0) {
@@ -28,6 +33,11 @@ public class Aufgabe4 {
 
     }
 
+    /**
+     * 
+     * @param binZahl das Array der Binärzahlen, darf nur aus 0 oder 1 bestehen
+     * @return 
+     */
     public int[] invertiere(int[] binZahl) {
 
         if (binZahl == null || binZahl.length == 0) {
